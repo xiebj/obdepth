@@ -1,0 +1,124 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea\
+* .idea\.name
+* .idea\androidDexCompiler.xml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\groovyc.xml
+* .idea\libraries\
+* .idea\libraries\orbbec20150702_d052fe95f0b339a212699f11adb3ce8c.xml
+* .idea\libraries\orbbec20150702_d052fe95f0b339a212699f11adb3ce8c2.xml
+* .idea\libraries\orbbec20150702_d052fe95f0b339a212699f11adb3ce8c3.xml
+* .idea\libraries\orbbecPermission20150716_pro.xml
+* .idea\libraries\orbbecPermission20150731_pro.xml
+* .idea\libraries\orbbecPermission20150803.xml
+* .idea\libraries\orbbecPermission20150803_pro.xml
+* .idea\libraries\orbbecPermission20150818.xml
+* .idea\libraries\orbbecPermission20150818_pro.xml
+* .idea\libraries\orbbecPermission20150818_pro2.xml
+* .idea\libraries\orbbecPermission20150916_Release.xml
+* .idea\libraries\orbbecPermission20150916_Release_pro.xml
+* .idea\libraries\orbbecPermission20151015.xml
+* .idea\libraries\orbbecPermission20151015_pro.xml
+* .idea\libraries\orbbecPermission20151118_pro.xml
+* .idea\libraries\orbbecPermission20151218.xml
+* .idea\libraries\orbbecPermission20151218_pro.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* ant.properties
+* build.xml
+* copy.bat
+* depends\
+* depends\libBodyTracking.so
+* depends\libHandTracking.so
+* depends\libNativeMethods.jni.so
+* depends\libOpenNI.jni.so
+* depends\libOpenNI.so
+* depends\libXnCore.so
+* depends\libXnDDK.so
+* depends\libXnDeviceFile.so
+* depends\libXnDeviceSensorV2.so
+* depends\libXnFormats.so
+* depends\libdepthColorOutput.so
+* depends\libinputdevices.so
+* depends\libnimCodecs.so
+* depends\libnimMockNodes.so
+* depends\libnimRecorder.so
+* depends\libusb.so
+* obDepth.iml
+* obj\
+* obj\local\
+* obj\local\armeabi-v7a\
+* obj\local\armeabi-v7a\libastraDepthOutput.so
+* obj\local\armeabi-v7a\objs\
+* obj\local\armeabi-v7a\objs\astraDepthOutput\
+* obj\local\armeabi-v7a\objs\astraDepthOutput\astraDepthOutput.o
+* obj\local\armeabi-v7a\objs\astraDepthOutput\astraDepthOutput.o.d
+* proguard-project.txt
+* proguard_logs\
+* proguard_logs\dump.txt
+* proguard_logs\mapping.txt
+* proguard_logs\seeds.txt
+* proguard_logs\usage.txt
+* readme.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\armeabi-v7a\libBackRemoval.so => app\src\main\jniLibs\armeabi-v7a\libBackRemoval.so
+* libs\armeabi-v7a\libBodyTracking.so => app\src\main\jniLibs\armeabi-v7a\libBodyTracking.so
+* libs\armeabi-v7a\libdepthColorOutput.so => app\src\main\jniLibs\armeabi-v7a\libdepthColorOutput.so
+* libs\armeabi-v7a\libHandTracking.so => app\src\main\jniLibs\armeabi-v7a\libHandTracking.so
+* libs\armeabi-v7a\libinputdevices.so => app\src\main\jniLibs\armeabi-v7a\libinputdevices.so
+* libs\armeabi-v7a\libNativeMethods.jni.so => app\src\main\jniLibs\armeabi-v7a\libNativeMethods.jni.so
+* libs\armeabi-v7a\libnimCodecs.so => app\src\main\jniLibs\armeabi-v7a\libnimCodecs.so
+* libs\armeabi-v7a\libnimMockNodes.so => app\src\main\jniLibs\armeabi-v7a\libnimMockNodes.so
+* libs\armeabi-v7a\libnimRecorder.so => app\src\main\jniLibs\armeabi-v7a\libnimRecorder.so
+* libs\armeabi-v7a\libobp.jni.so => app\src\main\jniLibs\armeabi-v7a\libobp.jni.so
+* libs\armeabi-v7a\libOpenNI.jni.so => app\src\main\jniLibs\armeabi-v7a\libOpenNI.jni.so
+* libs\armeabi-v7a\libOpenNI.so => app\src\main\jniLibs\armeabi-v7a\libOpenNI.so
+* libs\armeabi-v7a\libOrbbecUtil.so => app\src\main\jniLibs\armeabi-v7a\libOrbbecUtil.so
+* libs\armeabi-v7a\libusb.so => app\src\main\jniLibs\armeabi-v7a\libusb.so
+* libs\armeabi-v7a\libXnCore.so => app\src\main\jniLibs\armeabi-v7a\libXnCore.so
+* libs\armeabi-v7a\libXnDDK.so => app\src\main\jniLibs\armeabi-v7a\libXnDDK.so
+* libs\armeabi-v7a\libXnDeviceFile.so => app\src\main\jniLibs\armeabi-v7a\libXnDeviceFile.so
+* libs\armeabi-v7a\libXnDeviceSensorV2.so => app\src\main\jniLibs\armeabi-v7a\libXnDeviceSensorV2.so
+* libs\armeabi-v7a\libXnFormats.so => app\src\main\jniLibs\armeabi-v7a\libXnFormats.so
+* libs\orbbecPermission20160429-pro.jar => app\libs\orbbecPermission20160429-pro.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

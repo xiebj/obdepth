@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="I:\androidstudy\obdepth_old\app\libs\orbbecPermission20160429-pro.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0d63d3a8eb2992916df26ff13a846021361505e0">
+        <dex dex="I:\androidstudy\obdepth_old\app\build\intermediates\pre-dexed\debug\orbbecPermission20160429-pro-95b628a1d15c7bbf0bee460fd0eee15c5a67d854.jar" />
+    </item>
+
+</items>
